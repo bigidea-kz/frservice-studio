@@ -4,6 +4,7 @@ export default {
   name: 'global',
   type: 'document',
   title: 'Global',
+  __experimental_actions: [/* create, delete, */ 'update', 'publish'],
 
   fieldsets: [
     {
